@@ -2,7 +2,7 @@
   "Do the Right Thing": {
     "slug": "do-the-right-thing",
     "language": "en",
-    "path": "dtrt/do-the-right-thing-parsed",
+    "path": "dtrt/",
     "desc": "Script of Spike Lee's 1989 drama, with various speaker and scene annotations",
     "length": 17713,
     "drop_columns": ["voice_over", "camera_angle", "text", "parse"],
