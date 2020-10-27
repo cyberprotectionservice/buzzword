@@ -29,7 +29,7 @@ SECRET_KEY = "_^vo*lm=7o!zoj4c6zi*di!kw5ovar@*@%subhxmv*pu=)!-w5"
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["127.0.0.1", "0.0.0.0", "localhost", "127.0.0.1:8000", "130.60.24.230"]
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
@@ -202,7 +202,7 @@ PLOTLY_DASH = {
     # Name of view wrapping function
     "view_decorator": None,
     # Flag to control location of initial argument storage
-    "cache_arguments": True,
+    "cache_arguments": False,
     # Flag controlling local serving of assets
     "serve_locally": False,
 }
